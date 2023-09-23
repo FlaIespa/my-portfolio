@@ -59,7 +59,7 @@ function Contact() {
       </div>
 
       <div className='flex justify-center items-center font-[350] text-[0.6rem] leading-loose sm:text-[1rem]  tm:text-[1rem]'> Copyright © 2023
-        <span className='font-[500]'>&nbsp;Rimsha&nbsp; </span>
+        <span className='font-[500]'>&nbsp;Fla&nbsp; </span>
 
         All Rights Reserved
 

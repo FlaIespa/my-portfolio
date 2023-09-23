@@ -2,27 +2,27 @@ const expData = [
    
     {
       id: "1",
-      org: "SKANS PK",
-      title: "R&D Programmer",
-      date: "Jan 2023 - Present",
+      org: "LALA",
+      title: "Admission Officer and Strategic Initiatives Intern",
+      date: "April 2020 - May 2021",
       description:  
-          "I'm responsible for the programming of data to be entered on the system built with Microsoft ASP.NET framework. I conduct thorough research and analysis to identify areas for innovation and improvement. Collaborating effectively with cross-functional teams, I actively contribute insights and expertise to drive the enhancement of system functionality and user experience.",
+          "I was responsible for evaluating applications and interviewing prospective students for the Leadership Bootcamps of the organization as well as organizing and mapping contacts of prospective partners for the launch of a national chapter of the organization in Brazil."
     },  
     {
         id: "2",
-        org: "Freelance",
-        title: "Full Stack Developer",
-        date: "Since 2021",
+        org: "Iluma Innovations",
+        title: "Software Engineer Intern",
+        date: "May 2022 - Aug 2022",
         description:  
-            "As a Full Stack Developer, I have successfully worked with the MERN stack and Flutter gaining expertise in both frontend and backend development. I have also actively contributed to the testing of Node applications, ensuring high-quality deliverables. Utilizing Agile methodology, I effectively collaborate with teams to enhance productivity and ensure seamless project execution.",
+            "I was responsible for designing, implementing, and testing data pipelines to process experimental/microbiome data from the lab to a virtual warehouse. Processed data from scratch, creating five pipelines for the company: one with over 150 columns from S3 Bucket into Redshift (from AWS); the other four by creating an API with the database of a partnering company (Asimetrix) and load them also into Redshift (from AWS). Develop an application to expose, manipulate. Additionally, I designed an application to expose, manipulate, and analyze microbiome data in Python. Started the development of a client portal, a React App for both farmers and scientists to have a direct form of facilitated communication while exchanging data."
       },  
       {
         id: "3",
-        org: "Freelance",
-        title: "Graphic Designer",
-        date: "2018 - 2020",
+        org: "Vetor Brasil",
+        title: "Data Scientist",
+        date: "Nov 2022 - Jan 2023",
         description:  
-            "As a freelance graphic designer, I have worked independently and collaborated with clients to create visually appealing and impactful designs ideas, and deliver high-quality visual solutions that meet their needs. I have managed my schedule while ensuring timely project delivery and maintaining client satisfaction. ",
+            "In my role as a freelance Data Scientist, I seamlessly integrated into the company's dynamic project focused on aggregating comprehensive student data acquired through Form Assembly forms. My responsibilities extended beyond mere data collection; I meticulously curated and structured this wealth of information into meaningful categories. Leveraging cutting-edge technologies such as Python, SQL, and data visualization tools, I embarked on a journey of insightful analysis. My goal was to extract actionable insights from the collected data, pinpointing the most pertinent questions to inform future candidate selection processes, ultimately enhancing the company's decision-making capabilities."
       },  
     
 ];

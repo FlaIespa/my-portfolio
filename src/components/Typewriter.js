@@ -3,13 +3,14 @@ import React, { useState, useEffect } from 'react';
 const Typewriter = () => {
   const strings = [
     'Full Stack Developer',
-    'Mobile App Developer',
-    'ReactJS',
-    'MongoDB',
-    'NodeJS',
-    'ExpressJS',
-    'NextJS',
-    'Figma',
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'Python',
+    'SQL',
+    'React',
+    'AWS',
+    'Psychology enthusiast',
   ];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
   const [currentString, setCurrentString] = useState('');

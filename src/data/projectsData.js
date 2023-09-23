@@ -1,10 +1,12 @@
- 
-import RestCountries from "./../assets/portfolioImages/restcountries.jpg";
-import SpaceTourism from "./../assets/portfolioImages/spacetourism.jpg";
-import Advice from "./../assets/portfolioImages/advice.jpg";
 import Page from "./../assets/portfolioImages/intropage.jpg";
 // import AWS from "./../assets/portfolioImages/s3.PNG";
 import Todo from "./../assets/portfolioImages/todo.jpg"
+import ForestTherapy from "./../assets/portfolioImages/ForestTherapy.jpg"
+import YA from "./../assets/portfolioImages/YA.jpg"
+import TTC from "./../assets/portfolioImages/TTC.jpg"
+import PJB from "./../assets/portfolioImages/PJB.png"
+import CS114 from "./../assets/portfolioImages/CS114.png"
+import Utopia from "./../assets/portfolioImages/Utopia.png"
 
 // in progress projects
 
@@ -14,34 +16,34 @@ import landingPage from './../assets/portfolioImages/url.jpg'
 const ProjectsData = [
   {
     id: "fyp",
-    img: Servista,
-    name: "Service Provider Application",
+    img: TTC,
+    name: "Yoga Teacher Training",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
-    live: "https://www.canva.com/design/DAFoa-GrVg4/6wEhj_I__-QaLI1uQbnzsA/watch?utm_content=DAFoa-GrVg4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    source: "https://servista.vercel.app/",
+    live: "https://drive.google.com/file/d/1SCT36UWPy2pKDCEYBgMHZrXupS-mtylY/view?usp=sharing",
+    //source: "https://servista.vercel.app/",
     description:  
-        "A cross-platform app that connects local service providers with customers. As a full stack developer, I contributed to the development of the app using Flutter, Node.js, Express.js, Next.js and MongoDB. I also worked on the design of the app using Figma. The mobile app is currently in the testing phase and will be launched soon. Web app's frontend is also completed.",
+        "This experience was a pivotal point in my personal growth journey, especially as a Minerva student, where I learned to embrace diverse identities. Previously, I had primarily identified myself through academic success, which limited my engagement with my body and well-being. However, during the pandemic, I decided to forge a healthier relationship with my body, starting with online yoga videos. This practice allowed me to feel strong and connected, motivating me to pursue Yoga Teacher Training, a decision that combined both my academic focus and personal growth. Throughout this training, I encountered challenges, humility, and a deep sense of connection to the yogic lifestyle. Graduating on April 15th marked the beginning of a new chapter in my journey of self-discovery and community engagement.",
   }, 
   {
     id: "rest-countries",
-    img: RestCountries,
-    name: "REST Countires API",
+    img: YA,
+    name: "U.S. Department of State Grantee",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
     live: "https://rest-countries-api-rimshub.vercel.app/",
-    source: "https://github.com/rimshub/rest-countries-api",
+    //source: "https://github.com/rimshub/rest-countries-api",
     description:  
-        "Responsive website which integrates with the REST Countries API to pull country data. You can view the list of all countries and find one via search or by filtering regions. Individual country page, enables you to see further details about the country like border countries. Mobile first workflow and Bootstrap v5 is used to make it responsive.",
+        "The program yearly selects students from an underprivileged financial background with outstanding academic performance, for support in the application process to universities in the US, and I was selected along with 17 other students among 1000 applicants. There, I leveraged workshops, a mentorship program and community visits to design improvement for a project I worked on in my community. Additionally, the U.S. Department of State periodically selects Alumni through a rigorous application to receive a grant in the amount of 1000 dollars to allow for continuity of projects for future endeavors. The grant directed towards participation in the Latin American Leadership Academy.",
   },
 
   {
     id: "space-tourism",
-    img: SpaceTourism,
-    name: "Space Tourism Website",
+    img: PJB,
+    name: "Brazilian Youth Parliament",
     stack: ["< React.js />", "< CSS3 />"],
     live: "https://react-space-tourism-website-alpha.vercel.app/",
-    source: "https://github.com/rimshub/react-space-tourism-website",
+    //source: "https://github.com/rimshub/react-space-tourism-website",
     description:  
-        "Multi-page space tourism website provides relevent information for users. It has a responsive design and navigation. A large and complex project that required me to plan ahead and break down the work into smaller chunks. I used React.js to build the website and CSS3 for styling.",
+        "The program yearly selects students to present a bill written by them focused on solving a problem in their community in a 1-week nationally televised program in the Brazilian Chamber to which all the federal congress people of the country were invited. I was selected along with other 76 students among 1943 projects. There, I was elected general Vice-President of the edition by peers, becoming responsible for leading - along with the President - the primary ceremony in which the bills would be discussed.",
   
   },
   // {
@@ -57,36 +59,36 @@ const ProjectsData = [
 
   {
     id: "advice-generator",
-    img: Advice,
-    name: "Advice Generator App",
+    img: ForestTherapy,
+    name: "Forest Therapy",
     stack: ["< HTML5 />", "< CSS3 />", "< JavaScript />"],
-    live: "https://rimshub.github.io/javascript-advice-generator/",
-    source: "https://github.com/rimshub/javascript-advice-generator",
+    live: "https://drive.google.com/drive/folders/1nIM8fK2RyzJOSvdnB4Pad-nNtxQhSyHS?usp=sharing",
+    //source: "https://github.com/rimshub/javascript-advice-generator",
     description:  
-        "This advice generator app using the Advice Slip API. A small and fun app to practice JavaScript and mobile first workflow and CSS3. It has a responsive design and navigation.",
+        "During my semester in Taipei with Minerva University, I had the privilege of enrolling in the Forest Therapy course, an enriching experience that allowed me to immerse myself in the therapeutic benefits of nature and explore the profound connection between the natural world and our well-being.",
   },
 
 
   {
     id: "todo",
-    img: Todo,
-    name: "JavaScript Todo App",
+    img: Utopia,
+    name: "Minerva Assignment 1 - AH50 - My Utopia/Dystopia",
     stack: ["< JavaScript />  ", "< Sass />"],
-    live: "https://rimshub.github.io/JavaScript-Todo-App/",
-    source: "https://github.com/rimshub/JavaScript-Todo-App",
+    live: "https://drive.google.com/file/d/1Fjl_SMAWcfU_ys6yPUibSY31h_U-dB1z/view?usp=sharing",
+    //source: "https://github.com/rimshub/JavaScript-Todo-App",
     description:  
-        "Responsive JS todo app with color theme switcher. Enables users to add, delete, filter, and clear day-to-day tasks. It has user-friendly interface and navigation. I was able to practice my JavaScript and Sass skills in this project.",
+        "This assignment held immense significance for me as it provided a unique opportunity to delve into the depths of my creativity. Drawing inspiration from a beloved book, 'The Most Beautiful World Our Hearts Know is Possible,' I experienced a rare sense of freedom at Minerva, unburdened by the typical constraints of assignments.",
   },
 
   {
     id: "dropdown-nav",
-    img: Page,
-    name: "Homepage with dropdown navigation / Figma to React",
+    img: CS114,
+    name: "Minerva Assignment 2 - CS114 - Problem Set 2 ",
     stack: ["< React.js />   ", "< CSS3 />"],
-    live: "https://rimshub.github.io/figma-design-to-reactjs/",
-    source: "https://github.com/rimshub/figma-design-to-reactjs",
+    live: "https://drive.google.com/file/d/1VwYktGXXkgFIsrRqC6owBKT9bfjQ8OmI/view?usp=drive_link",
+    //source: "https://github.com/rimshub/figma-design-to-reactjs",
     description:  
-        "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge. As a front-end developer, I was able to practice my React.js and CSS3 skills in this project.",
+        "This assignment carries profound significance as it marked the culmination of my journey in the CS114 Class, which I found to be the most challenging course I've ever encountered. Ultimately, I made the difficult decision to withdraw from the class, turning it into a poignant reminder of my resilience and self-respect, highlighting the pivotal moment when I chose to prioritize my well-being over continuing with the course.",
   },  
    
 ];
