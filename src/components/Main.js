@@ -36,7 +36,7 @@ function Main() {
                 <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-170px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
                     <div className="box" >
                         <Tilt className="h-full justify-end flex items-center sm:justify-center" 
-                        style={{ width: '1000px', height: '1200px' }}>
+                        style={{ width: '500px', height: '800px' }}>
                             <img
                                 src={Flavia}
                                 alt="main"
