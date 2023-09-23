@@ -40,7 +40,7 @@ const ProjectsData = [
     img: PJB,
     name: "Brazilian Youth Parliament",
     stack: ["< React.js />", "< CSS3 />"],
-    live: "https://react-space-tourism-website-alpha.vercel.app/",
+    live: "https://www2.camara.leg.br/a-camara/programas-institucionais/experiencias-presenciais/parlamentojovem/edicoes-anteriores/2019",
     //source: "https://github.com/rimshub/react-space-tourism-website",
     description:  
         "The program yearly selects students to present a bill written by them focused on solving a problem in their community in a 1-week nationally televised program in the Brazilian Chamber to which all the federal congress people of the country were invited. I was selected along with other 76 students among 1943 projects. There, I was elected general Vice-President of the edition by peers, becoming responsible for leading - along with the President - the primary ceremony in which the bills would be discussed.",
@@ -85,7 +85,7 @@ const ProjectsData = [
     img: CS114,
     name: "Minerva Assignment 2 - CS114 - Problem Set 2 ",
     stack: ["< React.js />   ", "< CSS3 />"],
-    live: "https://drive.google.com/file/d/1VwYktGXXkgFIsrRqC6owBKT9bfjQ8OmI/view?usp=drive_link",
+    live: "https://drive.google.com/file/d/1VwYktGXXkgFIsrRqC6owBKT9bfjQ8OmI/view?usp=sharing",
     //source: "https://github.com/rimshub/figma-design-to-reactjs",
     description:  
         "This assignment carries profound significance as it marked the culmination of my journey in the CS114 Class, which I found to be the most challenging course I've ever encountered. Ultimately, I made the difficult decision to withdraw from the class, turning it into a poignant reminder of my resilience and self-respect, highlighting the pivotal moment when I chose to prioritize my well-being over continuing with the course.",
