@@ -29,7 +29,7 @@ const ProjectsData = [
     img: YA,
     name: "U.S. Department of State Grantee",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
-    live: "https://rest-countries-api-rimshub.vercel.app/",
+    live: "https://br.usembassy.gov/u-s-diplomatic-mission-unveils-the-list-of-the-50-youth-ambassadors-selected-for-the-2019-program/",
     //source: "https://github.com/rimshub/rest-countries-api",
     description:  
         "The program yearly selects students from an underprivileged financial background with outstanding academic performance, for support in the application process to universities in the US, and I was selected along with 17 other students among 1000 applicants. There, I leveraged workshops, a mentorship program and community visits to design improvement for a project I worked on in my community. Additionally, the U.S. Department of State periodically selects Alumni through a rigorous application to receive a grant in the amount of 1000 dollars to allow for continuity of projects for future endeavors. The grant directed towards participation in the Latin American Leadership Academy.",

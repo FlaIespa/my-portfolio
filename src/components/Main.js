@@ -3,6 +3,8 @@ import React from 'react';
 import myImage from './../assets/main_image.png';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Typewriter from './Typewriter';
+import Tilt from 'react-parallax-tilt'
+import Flavia from  './../assets/portfolioImages/Flavia.png'
 
 function Main() {
     
@@ -13,9 +15,9 @@ function Main() {
                     <h1 className="font-[400] text-[2rem] md:text-[1.7rem] tm:text-[2rem] sm:text-[1.6rem]">
                         Hi,
                     </h1>
-                    <blockquote className="font-[800] text-[2rem] text-[#ec6e59;] mt-[-10px] lg:text-[2.4rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem]">
+                    <blockquote className="font-[800] text-[2rem] text-[#d0f0c0;] mt-[-10px] lg:text-[2.4rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem]">
                         I'm
-                        <span className="before:block mx-4 mb-6 mt-4 before:absolute before:-inset-2 before:-skew-y-[3deg] before:bg-[#ec6e59;] relative inline-block">
+                        <span className="before:block mx-4 mb-6 mt-4 before:absolute before:-inset-2 before:-skew-y-[3deg] before:bg-[#d0f0c0;] relative inline-block">
                             <span className="relative text-[#fffffff0] dark:text-[#20262E]">Fla</span>
                         </span>
                     </blockquote>
@@ -23,23 +25,24 @@ function Main() {
                         <Typewriter />
                     </div>
                     <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-                    I'm a driven Computer Science and Psychology student at Minerva University. My internship at Iluma Remote in 
-                    Medellin honed my skills as a Data Software Engineer, and I've contributed to Latin American Leadership Academy as 
-                    an Admission Officer. I've earned prestigious awards like the Youth Ambassadors Certificate and developed proficiency in HTML, CSS, JavaScript, Python, AWS, React, SQL, and more. 
-                    I'm passionate about using technology to advance mental health tools. Reach out at flavia.iespa@uni.minerva.edu or 
+                    I'm a driven <b>Computer Science and Psychology</b> student at Minerva University. My internship at Iluma Remote in 
+                    Medellin honed my skills as a <b>Data Software Engineer</b>, and I've contributed to Latin American Leadership Academy as 
+                    an Admission Officer. I've earned prestigious awards like the <b>Youth Ambassadors Certificate</b> and developed proficiency in HTML, CSS, JavaScript, Python, AWS, React, SQL, and more. 
+                    I'm passionate about using <b>technology to advance mental health tools</b>. Reach out at flavia.iespa@uni.minerva.edu or 
                     via WhatsApp at +55 21964918657 to connect further!
                     </p>
                     
                 </div>
-                <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-30px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
+                <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-170px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
                     <div className="box" >
-                        <div className="h-full justify-end flex items-center sm:justify-center">
+                        <Tilt className="h-full justify-end flex items-center sm:justify-center" 
+                        style={{ width: '1000px', height: '1200px' }}>
                             <img
-                                src={myImage}
+                                src={Flavia}
                                 alt="main"
-                                className="h-[80%] min-h-[100px] min-w-[100px] tm:h-[36px] tm:mt-[200px] sm:min-h-[100px] sm:min-w-[100px] sm:ml-[30px]"
+                                className="h-[90%] min-h-[10px] min-w-[50px] tm:h-[36px] tm:mt-[200px] sm:min-h-[100px] sm:min-w-[100px] sm:ml-[30px]"
                             />
-                        </div>
+                        </Tilt>
 
 
                     </div>

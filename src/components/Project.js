@@ -1,24 +1,25 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
+import Tilt from 'react-parallax-tilt'
 
 function Projects({image, name, live, source, desc}) {
   return (
     <div className='flex flex-col-reverse gap-20 mt-12 sm:flex-row sm:items-center sm:justify-between'>
         <div className='w-full sm:w-1/2'>
             <div className='flex flex-col gap-2'>
-                <h1 className='text-xl font-bold text-[#ec6e59]'>{name}</h1>
+                <h1 className='text-xl font-bold text-[#d0f0c0]'>{name}</h1>
                 <p className='sm:text-justify font-light  leading-loose text-sm sm:text-base'>{desc}</p>
                 <div className='flex gap-5 mt-7'>
-                    <a href={live} target='_blank' rel='noreferrer' className='flex items-center bg-[#ec6e59] text-white px-4 py-2 rounded-md text-sm'>
+                    <a href={live} target='_blank' rel='noreferrer' className='flex items-center bg-[#3b7a57] text-white px-4 py-2 rounded-md text-sm'>
                         Paper
                     </a>
                 </div>
             </div>
         </div>
         
-        <div className='w-full sm:w-1/2'>
+        <Tilt className='w-full sm:w-1/2'>
             <img alt='project' src={image} className='rounded-md w-full sm:w-[60%]' />
-        </div>
+        </Tilt>
     </div>
   );
 }

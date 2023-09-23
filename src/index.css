@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&display=swap');
+
 
 html,
 body {
@@ -37,6 +39,11 @@ a::after {
 
 a:hover:after {
   width: 100%;
+}
+
+b{
+  font-weight: 600;
+  color:#d0f0c0;
 }
 
 @keyframes moveFromUpToDown {
@@ -82,7 +89,7 @@ a:hover:after {
 
 /* Scrollar bar color */
 ::-webkit-scrollbar-thumb {
-  background: #ec6e59;
+  background: #d0f0c0;
   border-radius: 10px;
 }
 
@@ -112,3 +119,20 @@ body [id] {
  /* value: "#FFDE59",
  value: "#2596be",
  value: "#206ca4", */
+/* CSS */
+.intro-div {
+  display: flex;
+  padding-top: 10px;
+  margin-top: -30px;
+  justify-items: start;
+}
+
+@media (min-width: 640px) {
+  .custom-class {
+    margin-top: 40px;
+    padding-right: 0;
+    justify-content: between;
+    flex-direction: column;
+  }
+}
+
