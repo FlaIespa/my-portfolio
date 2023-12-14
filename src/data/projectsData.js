@@ -6,7 +6,8 @@ import YA from "./../assets/portfolioImages/YA.jpg"
 import TTC from "./../assets/portfolioImages/TTC.jpg"
 import PJB from "./../assets/portfolioImages/PJB.png"
 import CS114 from "./../assets/portfolioImages/CS114.png"
-import Utopia from "./../assets/portfolioImages/Utopia.png"
+import SS111 from "./../assets/portfolioImages/SS111.png"
+import BCC from "./../assets/portfolioImages/BCC.png"
 
 // in progress projects
 
@@ -74,10 +75,10 @@ const ProjectsData = [
     img: SS111,
     name: "Minerva Assignment 1 - SS111 - Midterm Essay",
     stack: ["< JavaScript />  ", "< Sass />"],
-    live: "https://drive.google.com/file/d/1Fjl_SMAWcfU_ys6yPUibSY31h_U-dB1z/view?usp=sharing",
+    live: "https://docs.google.com/document/d/1IvoZ4yn8cBVxtksS7t67lCqmrMPdH4xyE-2KDHZoNZc/edit?usp=sharing",
     //source: "https://github.com/rimshub/JavaScript-Todo-App",
     description:  
-        "In this assignment, I the chance to choose an industry that is particularly susceptible to market failures due asymmetry, concentration of market powwer, externalities, or a combination, analyzing the key features of this industry. I had the chance to explore the health insurance industry, which is a branch of my overal capstone, as I intend to go into adressing the gap the health system has imposed in mental health conditions."
+        "In this assignment, I had the chance to choose an industry that is particularly susceptible to market failures due asymmetry, concentration of market power, externalities, or a combination, analyzing the key features of this industry. I had the chance to explore the health insurance industry, which is a branch of my overall capstone, as I intend to adress the gap the health system has imposed in mental health conditions."
   },
   
   {
