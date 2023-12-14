@@ -78,7 +78,8 @@ const ProjectsData = [
     //source: "https://github.com/rimshub/JavaScript-Todo-App",
     description:  
         "In this assignment, I the chance to choose an industry that is particularly susceptible to market failures due asymmetry, concentration of market powwer, externalities, or a combination, analyzing the key features of this industry. I had the chance to explore the health insurance industry, which is a branch of my overal capstone, as I intend to go into adressing the gap the health system has imposed in mental health conditions."
-
+  },
+  
   {
     id: "dropdown-nav",
     img: CS114,
