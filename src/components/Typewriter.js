@@ -6,10 +6,18 @@ const Typewriter = () => {
     'HTML',
     'CSS',
     'JavaScript',
+    'TypeScript',
     'Python',
-    'SQL',
+    'MySQL',
     'React',
-    'AWS',
+    'AWS S3',
+    'AWS Redshift',
+    'Docker', 
+    'Storyblok',
+    'Flask',
+    'Jquery', 
+    'ReactJS', 
+    'Express.JS',
     'Psychology enthusiast',
   ];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
@@ -41,7 +49,7 @@ const Typewriter = () => {
         return () => clearTimeout(timeout);
       }
     }
-  }, [currentString, currentStringIndex, isTyping]);
+  }, [currentString, currentStringIndex, isTyping, strings]);
 
   return (
     <span className="font-[500] dark:font-[400] text-black dark:text-[#d0f0c0;] text-[1.5rem] mb-2 sm:text-[2rem]">

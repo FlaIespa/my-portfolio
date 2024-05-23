@@ -1,6 +1,6 @@
 import React from 'react';
 // import Typed from 'react-typed';
-import myImage from './../assets/main_image.png';
+//import myImage from './../assets/main_image.png';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Typewriter from './Typewriter';
 import Tilt from 'react-parallax-tilt'
@@ -25,11 +25,12 @@ function Main() {
                         <Typewriter />
                     </div>
                     <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-                    I'm a driven <b>Computer Science and Psychology</b> student at Minerva University. My internship at Iluma Remote in 
-                    Medellin honed my skills as a <b>Data Software Engineer</b>, and I've contributed to Latin American Leadership Academy as 
-                    an Admission Officer. I've earned prestigious awards like the <b>Youth Ambassadors Certificate</b> and developed proficiency in HTML, CSS, JavaScript, Python, AWS, React, SQL, and more. 
-                    I'm passionate about using <b>technology to advance mental health tools</b>. Reach out at flavia.iespa@uni.minerva.edu or 
-                    via WhatsApp at +55 21964918657 to connect further!
+                    I'm a driven <b>Computer Science and Psychology</b> student at Minerva University. My roles at Iluma, Vetor Brasil, BTG and Bendcircular in 
+                    Medellin honed my skills as a <b>Software Engineer</b>, My technical expertise encompasses <b>HTML, CSS, JavaScript, Python, AWS, React, and SQL</b>, 
+                    allowing me to build and optimize systems across various platforms effectively. My projects have included developing AI-driven tools like <b>INBOT</b> to 
+                    enhance corporate communication and a <b>Behavior Change</b> Chatbot that integrates technology with mental health support, reflecting my passion for using 
+                    technology to advance mental health tools. I'm eager to connect and explore how we can leverage technology to address complex challenges—please 
+                    feel free to reach out at flavia.iespa@uni.minerva.edu or via WhatsApp at +415 2352389.
                     </p>
                     
                 </div>
