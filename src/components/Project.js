@@ -11,7 +11,7 @@ function Projects({image, name, live, source, desc}) {
                 <p className='sm:text-justify font-light  leading-loose text-sm sm:text-base'>{desc}</p>
                 <div className='flex gap-5 mt-7'>
                     <a href={live} target='_blank' rel='noreferrer' className='flex items-center bg-[#3b7a57] text-white px-4 py-2 rounded-md text-sm'>
-                        Paper
+                        Source
                     </a>
                 </div>
             </div>
